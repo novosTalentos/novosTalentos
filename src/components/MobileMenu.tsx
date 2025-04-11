@@ -7,6 +7,8 @@ interface MobileMenuProps {
   toggleMenu: () => void
 }
 
+console.log('teste')
+
 const MobileMenu = ({ toggleMenu }: MobileMenuProps) => {
   return (
     <div className="mobile-menu">
