@@ -1,0 +1,116 @@
+.download {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: #fff;
+}
+
+.download-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.download-content p {
+  font-size: 1.25rem;
+  color: #a0aec0;
+  margin-bottom: 3rem;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.download-button.android {
+  background-color: #fff;
+  color: #000;
+}
+
+.download-button.android:hover {
+  transform: translateY(-2px);
+}
+
+.download-button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.button-text .small {
+  font-size: 0.75rem;
+}
+
+.button-text .large {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.download-stats {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat .number {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat .label {
+  color: #a0aec0;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .download {
+    padding: 3rem 1rem;
+  }
+
+  .download-content h2 {
+    font-size: 2rem;
+  }
+
+  .download-content p {
+    font-size: 1.1rem;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-stats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+} 
